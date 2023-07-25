@@ -4,5 +4,4 @@ version.workspace = true
 edition = "2021"
 
 [dependencies]
-excluded = { workspace = true }
-log = "=0.4.17"
+excluded = { path = "../excluded" }
