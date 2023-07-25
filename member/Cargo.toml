@@ -1,7 +1,7 @@
 [package]
 name = "member"
-version.workspace = true
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
-excluded = { path = "../excluded" }
+excluded = { workspace = true }
