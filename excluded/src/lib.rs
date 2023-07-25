@@ -4,5 +4,5 @@ use log::info;
 
 pub fn setup() {
     env_logger::init();
-    info!("Logging enabled");
+    info!("Logging enabled!");
 }
