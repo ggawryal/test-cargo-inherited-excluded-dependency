@@ -1,0 +1,8 @@
+[workspace]
+
+members = ["member"]
+exclude = ["excluded"]
+
+[workspace.dependencies]
+member = { path = "member" }
+excluded = { path = "excluded" }
