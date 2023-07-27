@@ -62,6 +62,7 @@ name = "excluded"
 version = "0.1.0"
 dependencies = [
  "env_logger",
+ "hex-literal",
  "log",
 ]
 
@@ -70,6 +71,12 @@ name = "hermit-abi"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b"
+
+[[package]]
+name = "hex-literal"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ebdb29d2ea9ed0083cd8cece49bbd968021bd99b0849edb4a9a7ee0fdf6a4e0"
 
 [[package]]
 name = "humantime"
@@ -111,6 +118,7 @@ name = "member"
 version = "0.1.0"
 dependencies = [
  "excluded",
+ "hex-literal",
 ]
 
 [[package]]

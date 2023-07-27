@@ -1,6 +1,8 @@
 use excluded::setup;
+use hex_literal::hex;
 
-fn main() {
+pub fn f() {
     setup();
     println!("Hello, world!");
+    println!("{:?}",hex!("00"));
 }

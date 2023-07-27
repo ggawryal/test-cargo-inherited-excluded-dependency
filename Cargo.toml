@@ -1,5 +1,5 @@
 [workspace.package]
-version  = "0.2.0"
+version = "0.1.0"
 
 [workspace]
 
@@ -7,5 +7,6 @@ members = ["member"]
 exclude = ["excluded"]
 
 [workspace.dependencies]
-member = { path = "member", version = "0.1.0" }
+member = { path = "member" }
 excluded = { path = "excluded" }
+hex-literal = "0.3.4"
