@@ -1,8 +1,7 @@
-use excluded::setup;
+use excluded::excluded;
 use hex_literal::hex;
 
-pub fn f() {
-    setup();
-    println!("Hello, world!");
-    println!("{:?}",hex!("00"));
+pub fn member() {
+    excluded();
+    println!("Member, hex = {:?}",hex!("00"));
 }
