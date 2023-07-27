@@ -9,4 +9,3 @@ exclude = ["excluded"]
 [workspace.dependencies]
 member = { path = "member" }
 excluded = { path = "excluded" }
-hex-literal = "0.3.4"
